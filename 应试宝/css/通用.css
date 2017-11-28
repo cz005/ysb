@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.center{
+	width: 1000px;
+	margin: 0 auto;
+}
+.more{
+	float: right;
+	font-size: 18px;
+	color: #444444 !important;
+	padding-right: 20px;
+	font-weight: normal;
+	margin-top: 11px;
+	text-decoration: none;
+}
+h2{
+	font-size: 26px;
+	color: #444444;
+	margin-bottom: 20px;
+	font-weight: 600;
+	margin-top: 0;
+}
+.morespan{
+	width: 6px;
+	height: 6px;
+	background: #44ced8;
+	float: right;
+	border-radius: 10px;
+	margin: 6px 0 0 5px;
+}

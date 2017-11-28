@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购买页面</title>
+		<link rel="stylesheet" type="text/css" href="css/通用.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<style type="text/css">
+			body{
+				background: #f6f6f6;
+			}
+			.header{
+				width: 100%;
+				height: 75px;
+				background: #fff;
+			}
+			.logo{
+				float: left;
+				margin-top: 13px;
+			}
+			.nav{
+				position: relative;
+				left:45px;
+				
+			}
+			.nav>li{
+    				/*margin-left: 25px;*/
+    				margin-bottom: 0;
+			}
+			.nav li a{
+				text-decoration: none;
+				font-family: "微软雅黑";
+				font-size: 18px;
+				float: left;
+				line-height: 75px;
+				color: #444444;
+				margin-left: 35px;
+				text-align: center;
+				height: 53px;
+				width: 60px;
+			}
+			.nav>li .active{
+				color: #34bdc7;
+				border-bottom: 3px solid #34bdc7;
+			}
+			.nav>li>a:hover{
+				color: #34bdc7;
+			}
+			 .mytext img{
+			 	width: 40px;
+			 	height: 40px;
+			 	float: left;
+			 	border-radius: 50%;
+			 	background: #f5f5f5;
+			 	margin: 20px 8px 0 20px;
+			 }
+			 .mytext a{
+			 	text-decoration: none;
+				color: #565656;	
+			 }
+			 .mytext{
+			 	float: right;
+			 	margin: 0;
+				position: relative;
+			 	
+			 }
+			 .center>p{
+			 	font-size: 16px;
+			 	height: 75px;
+			 	line-height: 75px;
+			 	float: right;
+			 }
+			  .center>p>a{
+			  	text-decoration: none;
+				color: #565656;		  	
+			  }
+			  .center>p>a:hover{
+			  	color: #34bbc7;
+			  }
+			  .jinsi>a{
+			  	height: 75px;
+			  	line-height: 75px;
+			  }
+			  .icon-arrow-bottom{
+			  	 float: right;
+			  	 height: 75px;
+			  	 line-height: 75px;
+			  	 margin: 0 0 0 20px;
+			  }
+			/*.center>p>a{
+				text-decoration: none;
+				font-family: "微软雅黑";
+				font-size: 16px;
+				float: right;
+				color: #aaaaaa;
+				line-height: 75px;
+				margin-left: 15px;
+			}
+			.center>p>a:hover{
+				color: #34bdc7;
+			}*/
+			.block>.block-con>ul>a{
+				text-decoration: none;
+				color: #b9b9bf;
+			}
+			.block>.block-con>ul>a:hover{
+				color: #565656;
+			}
+			.block>.block-con>ul li{
+				margin-bottom: 25px;
+				margin: 0 10px;
+				padding: 20px 0 0px 0;
+				font-size: 14px;
+			}	
+			#ul2{
+				margin-top: 20px;
+			}
+			.block>.block-con>ul{
+				border-top: 1px solid #b9b9bf;
+				margin: 0px 20px;
+			}
+			.block>.block-con{
+				margin: 20px;
+			}
+			.block{
+				float: right;
+				width: 183px;
+				height: 189px;
+				position: absolute;
+				right: 0;
+				top: 60px;
+				padding-top: 10px;
+				box-shadow: 0 2px 10px #bfbfbf;
+				display: none;
+			}
+			.mytext:hover .block{
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<div class="center">
+				<a class="logo" href="#"><img width="140px" src="http://7sblip.com1.z0.glb.clouddn.com/pc/image/newlogojp.png" alt="" /></a>
+				<ul class="nav">
+					<li><a class="active" href="#">首页</a></li>
+					<li><a href="#">四六级</a></li>
+					<li><a href="#">考研</a></li>
+					<li><a href="#">雅思</a></li>
+					<li><a href="#">口语</a></li>
+				</ul>
+				<a href="#"><div class="mytext">
+					<div class="jinsi">
+						<i class="iconfont icon-arrow-bottom"></i>
+						<a href="#">进四</a>
+					<img src="http://down.yingshibao.com/yingshibao/courseLibrary/userAvatar/BE79632C049E71D26E83553B83821390-2.jpg" alt="" />
+					</div>
+					<div class="block">
+						<div class="block-con">
+							<ul>
+								<a href="#"><li>个人资料</li></a>
+								<a href="#"><li>我的订单</li></a>
+							</ul>
+							<ul id="ul2">
+								<a href="#"><li>退出</li></a>
+							</ul>
+						</div>
+					</div>
+				</div></a>
+				<p><a href="#">我的课程</a></p>
+			</div>
+		</div>
+		<style type="text/css">
+			.content{
+				width: 1000px;
+				margin: auto;
+				background: #fff;
+				border: 1px solid #eef0f0;
+				clear: both;
+				margin-top: 30px;
+				margin-bottom: 30px;
+				overflow: hidden;
+				position: relative;
+			}
+			.content-header{
+				overflow: hidden;
+			}
+			.content-header>h1{
+				font-size: 16px;
+				color: #6e6e7e;
+				border-left: 5px solid #44ced8;
+				padding-left: 20px;
+				margin: 58px 0 48px 0px;
+			}
+			.dd-title img{
+				width: 200px;
+				height: 116px;
+				margin-left: 50px;
+				display: inline-block;
+				float: left;
+			}
+			.dd-main{
+				float: left;
+				margin-left: 25px;
+				height: 116px;
+				width: 650px;
+			}
+			.dd-main h2{
+				font-size: 18px;
+				color: #59595d;
+				line-height: 116px;
+				float: left;
+			}
+			.dd-main p{
+				float: right;
+				line-height: 116px;
+				font-size: 24px;
+				font-weight: bold;
+				color: #44ced8;
+			}
+			.content-main{
+				width: 100%;
+				clear: both;
+				margin-top: 40px;
+			}
+			.content-main h1{
+				font-size: 16px;
+				color: #6e6e7e;
+				border-left: 5px solid #44ced8;
+				padding-left: 20px;
+				margin: 58px 0 38px 0px;
+			}
+			.add{
+				width: 862px;
+				height: 36px;
+				margin-top: 33px;
+				margin: auto;
+				border: 1px solid #f8f8f8;
+			}
+			.add h3{
+				display: inline-block;
+				font-size: 14px;
+				color: #9696a3;
+				float: left;
+				line-height: 30px;
+				margin: 0 16px;
+			}
+			.add p{
+				font-size: 14px;
+				color: #9696a3;
+				line-height: 30px;
+				margin: 0 16px;
+			}
+			.add a{
+				text-decoration: none;
+				color: #616161;
+				font-size: 14px;
+				float: right;
+				margin-top: -30px;
+				line-height: 30px;
+				margin-right: 16px;
+				display: inline-block;
+			}
+			.add a:hover{
+				color: #9696a3;
+			}
+			.zfb{
+				margin-left: 25px;
+				overflow: hidden;
+			}
+			.zfb img{
+				float: left;
+				margin-left: 30px;
+				margin-bottom: 30px;
+				display: block;
+			}
+			.border{
+				width: 95%;
+				margin: 0 auto;
+				height: 0;
+				border: 1px solid #eeeeee;
+			}
+			.content-main>h3{
+				color: #6e6e7e;
+				float: right;
+				font-weight: normal;
+				font-size: 16px;
+				margin: 15px 0;
+				margin-right: 25px;
+				margin-bottom: 85px;
+			}
+			.pri{
+				position: relative;
+				bottom: -58px;
+				right: -165px;
+			}
+			.pri>input{
+				float: right;
+				margin-right: 55px;
+				color: #fff;
+				background: #44ced8;
+				font-size: 16px;
+				border-radius: 20px;
+				width: 107px;
+				height: 38px;
+				text-align: center;
+			}
+			.pri>h6{
+				color: #44ced8;
+				font-size: 18px;
+				float: right;
+				margin-right: 18px;
+			}
+			.pri>h6>span{
+				color: #44ced8;
+				font-size: 30px;
+				font-weight: bold;
+			}
+		</style>
+		<div class="content">
+			<div class="content-header">
+				<h1>	订单确认</h1>
+				<div class="dd-title">
+					<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/4D9FDF4FF41415F84F8F675E391C8BD4-2.png" alt="" />
+					<div class="dd-main">
+						<h2>秋季四级冲刺班</h2>
+						<p>￥99.00</p>
+					</div>
+				</div>	
+			</div>
+			<div class="content-main">
+				<h1>课程讲义寄送至</h1>
+				<div class="add">
+					<h3>曹正</h3>
+					<p>河南省洛阳市其他洛阳师范学院伊滨校区&nbsp;&nbsp;&nbsp;18437977188</p>
+					<a href="#">修改</a>
+				</div>
+				<h1 style="margin-top: 80px;">选择支付方式</h1>
+				<div class="zfb">
+					<img src="http://gwrs.yingshibao.com/image/pc/index/newzfh.png" alt="" />
+					<img style="margin-top: 10px;" src="http://gwrs.yingshibao.com/image/pc/index/newwxzf.png" alt="" />
+				</div>
+				<div class="border"></div>
+				<h1 style="margin-top: 40px; display: inline-block;">优惠券</h1><h2 style="margin-top: 40px; display: inline-block; font-size: 16px; color: #6e6e7e; float: right; margin-right: 90px;">无优惠券<i class="iconfont icon-up"></i></h2>
+				<div class="border"></div>
+				<h1 style="margin-top: 40px;">需支付金额</h1>
+				<h3>商品价格：￥99.00</h3>
+				<div class="pri">
+					<input type="submit" name="" id="" value="立即付款" />
+					<h6>实付款：￥<span>99.00</span></h6>
+					
+				</div>
+			</div>
+		</div>
+		<style type="text/css">
+			.footer{
+				width: 100%;
+				background-color: #414141;
+				clear: both;
+				color: #929292;
+				font-size: 14px;
+			}
+			
+			.footer a{
+				text-decoration: none;
+				color: #929292;
+			}
+			.line{
+				border-left: 1px solid #929292;
+				/*background-color: red;*/
+				/*color: #929292;*/
+				height: 12px;
+				/*font-size: 12px;*/
+				/*margin-right: 20px;*/
+				/*line-height: 50px;*/
+				/*display: inline-block;*/
+				/*margin-top: 5px;*/
+			}
+			.footer-top>ul>li>a{
+				margin-right: 20px;
+			}
+			.footer-top>ul>li>a:hover{
+				color: #c1c1c1;
+			}
+			.hoverimg{
+				position: absolute;
+				top: -150px;
+				left: -30px;
+				display: none;
+			}
+			.footer-top>ul>li>a:hover .hoverimg{
+				display: block;
+			}
+			.footer-list{
+				padding-top: 40px;
+			}
+			.footer-list2{
+				margin-top: 20px;
+			}
+			.footer-bot{
+				width: 100%;
+				text-align: center;
+				border-top: 1px solid #4b4b4b;
+			}
+			.footer-bot>ul>li{
+				display: inline-block;
+				line-height: 50px;
+				color: #929292;
+				font-size: 14px;
+				margin-right: 20px;
+			}
+			.footer-bot>ul>li>p{
+				clear: both;
+				text-align: center;
+				color: #757575;
+				font-size: 12px;
+				height: 22px;
+				line-height: 22px;
+			}
+			.span{
+				float: left;
+				width: 6px;
+				height: 6px;
+				background: #44CED8;
+				margin: 7px 10px 0 40px;
+				border-radius: 10px;
+			}
+		</style>
+		<div class="footer">
+				<div class="center">
+					<div class="footer-top">
+						<ul>
+							<li class="footer-list">
+								<span class="span"></span>
+								获取更多考试资讯，欢迎关注：
+								<a href="#">四六级微博<img class="hoverimg" src="http://7sblip.com1.z0.glb.clouddn.com/pc/image/fewmsljwb.png" alt="" /></a>
+								<a href="#">考研微博<img class="hoverimg" src="http://7sblip.com1.z0.glb.clouddn.com/pc/image/fewmkywb.png" alt="" /></a>
+								<a href="#">四六级微信<img class="hoverimg" src="http://7sblip.com1.z0.glb.clouddn.com/pc/image/fewmsljwx.png" alt="" /></a>
+								<a href="#">考研微信<img class="hoverimg" src="http://7sblip.com1.z0.glb.clouddn.com/pc/image/fewmkywx.png" alt="" /></a>
+							</li>
+							<li  class="footer-list2">
+								<span class="span"></span>
+								<p>联系客服：010-56053889&nbsp010-56053996&nbsp周一到周五9：00-18：00 节假日除外）&nbspEmail： kefu@yingshibao.com</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer-bot">
+					<ul>
+						<li><a href="#">关于我们</a></li>
+						<li class="line"></li>
+						<li><a href="#">联系我们</a></li>
+						<li class="line"></li>
+						<li><a href="#">常见帮助</a></li>
+						<li class="line"></li>
+						<li><a href="#">下载应试宝APP</a></li>
+					</ul>
+					<p>Copyright © 2014-2017 www.yingshibao.com All Rights Reserved 京ICP备14007548号</p>
+				</div>
+			</div>
+	</body>
+</html>
