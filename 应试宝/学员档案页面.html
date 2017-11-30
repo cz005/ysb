@@ -2,13 +2,12 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>购买页面</title>
+		<title>学员档案页</title>
 		<link rel="stylesheet" type="text/css" href="css/通用.css"/>
 		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
 		<link rel="stylesheet" type="text/css" href="css/头部脚部.css"/>
-		<link rel="stylesheet" type="text/css" href="css/购买页面.css"/>
+		<link rel="stylesheet" type="text/css" href="css/学员档案页面.css"/>
 		<link rel="stylesheet" type="text/css" href="css/右侧导航.css"/>
-		
 	</head>
 	<body>
 		<div class="header">
@@ -71,36 +70,52 @@
 			</div>
 		</div>
 		<div class="content">
-			<div class="content-header">
-				<h1>	订单确认</h1>
-				<div class="dd-title">
-					<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/4D9FDF4FF41415F84F8F675E391C8BD4-2.png" alt="" />
-					<div class="dd-main">
-						<h2>秋季四级冲刺班</h2>
-						<p>￥99.00</p>
+			<div class="center">
+				<div class="left">
+					<ul>
+						<li><i style="padding-right: 15px;" class="iconfont icon-calendar"></i><a href="#">我的课程</a></li>
+						<li><i style="padding-right: 15px;" class="iconfont icon-icon"></i><a href="#">个人资料</a></li>
+						<li><i style="padding-right: 15px;" class="iconfont icon-dingwei"></i><a href="#">收货信息</a></li>
+						<li><i style="padding-right: 15px;" class="iconfont icon-dingdan"></i><a href="#">我的订单</a></li>
+						<li style="overflow: hidden;"><i style="padding-right: 15px; float: left;" class="iconfont icon-youhuiquan"></i><a href="#" style="float: left;">优惠券</a></li>
+						<li><i style="padding-right: 15px;" class="iconfont icon-suo"></i><a href="#">修改密码</a></li>
+						<li><a href="#" class="active" style="color: #44ced8;"><i style="padding-right: 15px;" class="iconfont icon-dangan"></i>学员档案</a></li>
+						<li><i style="padding-right: 15px;" class="iconfont icon-shouji"></i><a href="#">申请重修</a></li>
+					</ul>
+				</div>
+				<div class="right">
+					<h2>学员档案记录</h2>
+					<div class="right-top">
+						<form action="" method="post">
+							<label>备考项目：</label>
+							<div class="cet-4">英语四级</div>
+							<label>真实姓名：</label>
+							<span>曹正</span>
+							<label>联系电话：</label>
+							<input type="text" name="" id="" value="" />
+							<label>学校：</label>
+							<input type="text" name="" id="" value="" />
+							<label>院系：</label>
+							<input type="text" name="" id="" value="" />
+							<input id="sub" type="submit" value="保存信息"/>
+						</form>
 					</div>
-				</div>	
-			</div>
-			<div class="content-main">
-				<h1>课程讲义寄送至</h1>
-				<div class="add">
-					<h3>曹正</h3>
-					<p>河南省洛阳市其他洛阳师范学院伊滨校区&nbsp;&nbsp;&nbsp;18437977188</p>
-					<a href="#">修改</a>
-				</div>
-				<h1 style="margin-top: 80px;">选择支付方式</h1>
-				<div class="zfb">
-					<img src="http://gwrs.yingshibao.com/image/pc/index/newzfh.png" alt="" />
-					<img style="margin-top: 10px;" src="http://gwrs.yingshibao.com/image/pc/index/newwxzf.png" alt="" />
-				</div>
-				<div class="border"></div>
-				<h1 style="margin-top: 40px; display: inline-block;">优惠券</h1><h2 style="margin-top: 40px; display: inline-block; font-size: 16px; color: #6e6e7e; float: right; margin-right: 90px;">无优惠券<i class="iconfont icon-up"></i></h2>
-				<div class="border"></div>
-				<h1 style="margin-top: 40px;">需支付金额</h1>
-				<h3>商品价格：￥99.00</h3>
-				<div class="pri">
-					<input type="submit" name="" id="" value="立即付款" />
-					<h6>实付款：￥<span>99.00</span></h6>
+					<div class="right-bot">
+						<h3>考试</h3>
+						<form action="" method="post">
+							<label>课程名称：</label>
+							<span>秋季四级保过班</span>
+							<label>考试类型：</label>
+							<span>四级考试</span>
+							<label>参考时间：</label>
+							<span>2017年12月16日</span>
+							<label>准考证号：</label>
+							<input type="text" name="" id="" value="请输入准考证号" />
+							<label>考试成绩：</label>
+							<input type="text" name="" id="" value="请输入考试成绩" />
+							<a href="#">保存</a>
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>

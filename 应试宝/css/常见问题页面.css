@@ -1,0 +1,130 @@
+/*海报*/
+
+.banner>img {
+	width: 100%;
+	height: 377px;
+	margin-top: 5px;
+}
+
+
+/*主题内容*/
+
+.main {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.main>h2 {
+	font-size: 22px;
+	font-weight: normal;
+	color: #686868;
+	border-left: 5px solid #44CED8;
+	padding-left: 10px;
+	margin-top: 60px;
+}
+
+
+/*左侧列表*/
+
+.main-left>ul {
+	width: 136px;
+	float: left;
+	background: #fff;
+	margin-top: 16px;
+}
+
+.main-left>ul>li {
+	font-size: 14px;
+	font-weight: normal;
+	color: #333;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.main-left>ul>li:hover {
+	background: #d6d9da;
+}
+
+
+/*右侧具体内容*/
+
+.main-right {
+	margin-top: 16px;
+	float: left;
+	margin-left: 55px;
+	margin-bottom: 50px;
+}
+
+.main-list1 {
+	float: left;
+	margin-bottom: 10px;
+}
+
+
+/*矩形条*/
+
+.main-right-list {
+	width: 538px;
+	height: 42px;
+	background: #34BBC7;
+	float: left;
+	border-top-left-radius: 4px;
+	margin-bottom: 5px;
+}
+
+.main-right-list>p {
+	color: #FFFFFF;
+	font-size: 16px;
+	text-align: center;
+	line-height: 42px;
+}
+
+
+/*挤三角形*/
+
+.main-right span,
+.main-list1 span {
+	border: 21px solid transparent;
+	height: 0;
+	border-left-color: #34BBC7;
+	float: left;
+}
+
+
+/*放大箭头*/
+
+.icon-arrow-bottom {
+	color: #fff;
+	line-height: 42px;
+	font-size: 30px;
+	float: right;
+	margin-right: 20px;
+}
+
+.icon-up {
+	color: #fff;
+	line-height: 32px;
+	font-size: 26px;
+	float: right;
+	margin-right: 22px;
+}
+
+
+/*文字内容*/
+
+.content {
+	width: 510px;
+	height: 69px;
+	border: 2px solid #34BBC7;
+	margin-top: 40px;
+	margin-left: 20px;
+	background: #fff;
+}
+
+.content p {
+	font-size: 14px;
+	color: #686868;
+	margin: 10px 53px 23px 30px;
+}

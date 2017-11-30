@@ -1,0 +1,55 @@
+body{
+	background: #fff !important;
+}
+/*主体部分*/
+
+.content {
+	width: 1000px;
+	height: 745px;
+	margin: 0 auto;
+	margin-top: 10px;
+	border: 1px solid #eee;
+	margin-bottom: 10px;
+}
+
+
+/*有内边距*/
+
+.explain {
+	width: 920px;
+	margin: 0 auto;
+}
+
+
+/*标题*/
+
+.explain>h2 {
+	font-size: 18px;
+	margin-top: 22px;
+	font-weight: normal;
+	border-bottom: 1px solid #000;
+	padding-bottom: 10px;
+}
+
+.explain>p {
+	font-size: 14px;
+	color: #636363;
+	/*line-height: 2em;*/
+	margin-left: 40px;
+}
+
+.explain span {
+	color: #fb3838;
+}
+
+.explain .title {
+	margin-top: 20px;
+}
+
+.explain .main {
+	text-indent: 1em;
+}
+
+.explain .main {
+	margin-bottom: 10px;
+}

@@ -1,313 +1,186 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="utf-8" />
 		<title>应试宝</title>
-		<link rel="stylesheet" type="text/css" href="css/通用.css"/>
-		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/通用.css" />
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="css/首页.css"/>
+		<link rel="stylesheet" type="text/css" href="css/右侧导航.css"/>
 	</head>
+
 	<body style="background-color: #f6f6f6;">
-		<style type="text/css">
-			.header{
-				width: 100%;
-				height: 75px;
-				background: #fff;
-			}
-			.logo{
-				float: left;
-				margin-top: 13px;
-			}
-			.nav{
-				position: relative;
-				left:45px;
-				
-			}
-			.nav>li{
-    				/*margin-left: 25px;*/
-    				margin-bottom: 0;
-			}
-			.nav li a{
-				text-decoration: none;
-				font-family: "微软雅黑";
-				font-size: 18px;
-				float: left;
-				line-height: 75px;
-				color: #444444;
-				margin-left: 35px;
-				text-align: center;
-				height: 53px;
-				width: 60px;
-			}
-			.nav>li .active{
-				color: #34bdc7;
-				border-bottom: 3px solid #34bdc7;
-			}
-			.nav>li>a:hover{
-				color: #34bdc7;
-			}
-			 
-			.center>p>a{
-				text-decoration: none;
-				font-family: "微软雅黑";
-				font-size: 16px;
-				float: right;
-				color: #aaaaaa;
-				line-height: 75px;
-				margin-left: 15px;
-			}
-			.center>p>a:hover{
-				color: #34bdc7;
-			}
-			.poster>img{
-			    display: block;
-    				width: 100% !important;
-   				 height: auto;
-   				 margin-bottom: 50px;
-   				 height: 400px;
-			}
-			/*#nav{
-				position: fixed;
-				top: 20%;
-				right: 5%;
-				background: #FFFFFF;
-				border: 1px solid #DFE2E2;
-				border-radius: 5px;
-				position: relative;
-			}
-			#nav i{
-				position: absolute;
-				top: 20%;
-				right: 5%;
-			}*/
-		</style>
-		<!--<div id="nav">
-			<i class="iconfont icon-zaixiankefu"></i>
-			<i class="iconfont icon-weixin"></i>
-			<i class="iconfont icon-iconfontweibo"></i>
-			<i class="iconfont icon-xiazaiAPP"></i>
-		</div>-->
 		<div class="header">
 			<div class="center">
 				<a class="logo" href="#"><img width="140px" src="http://7sblip.com1.z0.glb.clouddn.com/pc/image/newlogojp.png" alt="" /></a>
 				<ul class="nav">
-					<li><a class="active" href="#">首页</a></li>
-					<li><a href="#">四六级</a></li>
-					<li><a href="#">考研</a></li>
-					<li><a href="#">雅思</a></li>
-					<li><a href="#">口语</a></li>
+					<li>
+						<a class="active" href="#">首页</a>
+					</li>
+					<li>
+						<a href="#">四六级</a>
+					</li>
+					<li>
+						<a href="#">考研</a>
+					</li>
+					<li>
+						<a href="#">雅思</a>
+					</li>
+					<li>
+						<a href="#">口语</a>
+					</li>
 				</ul>
-				<p><a href="#">注册</a><a href="#">/</a><a href="#">登录</a</p>
+				<p>
+					<a href="#">注册</a>
+					<a href="#">/</a>
+					<a href="#">登录</a</p>
+			</div>
+		</div>
+		<div class="top">
+			<div class="remu" style="height: 360px;">
+				<div class="btnBtn btn-top" style="display: none;"></div>
+				<a class="kefu" href="">
+					<b>在线客服</b>
+				</a>
+				<div class="wx">
+					<p>微信</p>
+					<div class="big-img" style="display: none;">
+						<img class="pic" src="http://7sblip.com1.z0.glb.clouddn.com/pc/image/ysbcewx.png" alt="" style="display: inline;" /></div>
+				</div>
+				<div class="pho">
+					<p>微博</p>
+					<div class="wb" style="display: none;">
+						<div class="kyimg">
+							<img src="http://7sblip.com1.z0.glb.clouddn.com/pc/image/ysbceky.png" alt="" style="display: none;" />
+							<img src="http://7sblip.com1.z0.glb.clouddn.com/pc/image/ysbcekyh.png" alt="" style="display: none;" />
+						</div>
+					</div>
+				</div>
+				<div class="bt-app">
+					<p>APP下载</p>
+					<div class="app" style="display: none;">
+						<img src="http://7sblip.com1.z0.glb.clouddn.com/pc/image/APP.png" alt="" />
+					</div>
+				</div>
 			</div>
 		</div>
 		<a class="poster" href="#"><img src="http://down.yingshibao.com/userDirectory/qiniu/pc/img/44E2B70ABDA2ED8C8CC4C5FF8E7928F2.png" alt="" /></a>
 		<div class="content">
 			<div class="center">
-				<style type="text/css">
-						.cet-4-1{
-							width: 33.3%;
-							min-height: 250px;
-							float: left;
-							margin-bottom: 35px;
-						}
-						.cet-4-bor{
-							width: 320px;
-							background: #FFFFFF;
-							float: left;
-							margin: auto;
-							border: 1px solid #dfe2e2;
-							border-radius: 5px;
-							box-sizing: border-box;
-						}
-						.cet-4-bor:hover{
-							box-shadow: 1px 1px 3px lightgrey;
-						}
-						.cet-4-img{
-							width: 320px;
-							height: 183px;
-							overflow: hidden;
-							position: relative;
-						}
-						.cet-4-img img{
-							width: 318px;
-							height: 183px;
-							position: absolute;
-							top: 0;
-							left: 0;
-							/*z-index: 1;*/
-						}
-						.cet-4-img img:hover{
-							width: 325px;
-							height: 190px;
-							margin: auto;
-							top: -10px;
-							left: -5px;
-							border-bottom-left-radius: 5px 5px 0 0;
-							/*z-index: 100;*/
-						}
-						.cet-4-1-con{
-							margin-left: 10px;
-							height: 100px;
-							position: relative;
-						}
-						.cet-4-1-con>h4{
-							margin-top: 13px;
-							font-size: 16px;
-							color: #444444;
-							margin-bottom: 0;
-						}
-						.cet-4-1-con>p{
-							margin-top: 10px;
-							font-size: 14px;
-							color: #AAAAAA;
-						}
-						.pri{
-							font-size: 14px;
-							width: 100%;
-							padding: 0 20px 0 0;
-							color: #666666;
-							display: inline-block;
-							position: absolute;
-							bottom: 8px;
-							clear: both;
-						}
-						.pri>b{
-							float: left;
-							margin-left: -5px;
-						}
-						.pri>b>h1{
-							color: #59dde2;
-							float: left;
-							font-size: 30px;
-							margin-top: 22px;
-							font-weight: bold;
-						}
-						.pri>b>h3{
-							float: left;
-							margin-left: 10px;
-							font-size: 16px;
-							color: #cfcfcf;
-							margin-top: 36px;
-							text-decoration: line-through;
-						}
-						.pri>h4{
-							font-size: 14px;
-							color: #AAAAAA;
-							float: right;
-							margin-top: 38px;
-							margin-right: 20px;
-						}
-						/*已售罄*/
-						.pri>p{
-							position: absolute;
-							font-size: 20px;
-							color: #59dde2;
-							font-weight: bold;
-							bottom: 10px;
-							width: 60px;
-						}
-					</style>
 				<div class="cet-4">
 					<h2>四六级<a class="more" href="#">更多课程<span class="morespan"></span></a></h2>
 					<div class="cet-4-1">
-						<a href="#"><div class="cet-4-bor">
-							<div class="cet-4-img">
-								<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/3D7EA8825895F9DEA0889158F4558E3A-2.jpg" alt="" />
-							</div>	
-							<div class="cet-4-1-con">
-								<h4>四六级预测冲刺大串讲</h4>
-								<p>限量免费</p>
-								<span class="pri">
-									<b>
-										<h1>￥0</h1>
-										<h3>￥99</h3>
-									</b>
-									<h4>报名限额：8000</h4>
-								</span>
+						<a href="#">
+							<div class="cet-4-bor">
+								<div class="cet-4-img">
+									<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/3D7EA8825895F9DEA0889158F4558E3A-2.jpg" alt="" />
+								</div>
+								<div class="cet-4-1-con">
+									<h4>四六级预测冲刺大串讲</h4>
+									<p>限量免费</p>
+									<span class="pri">
+										<b>
+											<h1>￥0</h1>
+											<h3>￥99</h3>
+										</b>
+										<h4>报名限额：8000</h4>
+									</span>
+								</div>
 							</div>
-						</div></a>
+						</a>
 					</div>
 					<div class="cet-4-1">
-						<a href="#"><div class="cet-4-bor">
-							<div class="cet-4-img">
-								<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/4D9FDF4FF41415F84F8F675E391C8BD4-2.png" alt="" />
-							</div>	
-							<div class="cet-4-1-con">
-								<h4>秋季四级冲刺班</h4>
-								<p>离抢课结束还有：3天</p>
-								<span class="pri">
-									<b>
-										<h1>￥99</h1>
-										<h3>￥299</h3>
-									</b>
-									<h4>报名限额：2000</h4>
-								</span>
-							</div>
-						</div></a>
-					</div>
-					<div class="cet-4-1">
-						<a href="#"><div class="cet-4-bor">
-							<div class="cet-4-img">
-								<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/5A00339E4E46AA4D9A41C288EF763F04-2.png" alt="" />
-							</div>	
-							<div class="cet-4-1-con">
-								<h4>秋季六级冲刺班</h4>
-								<p>离抢课结束还有：3天</p>
-								<span class="pri">
+						<a href="#">
+							<div class="cet-4-bor">
+								<div class="cet-4-img">
+									<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/4D9FDF4FF41415F84F8F675E391C8BD4-2.png" alt="" />
+								</div>
+								<div class="cet-4-1-con">
+									<h4>秋季四级冲刺班</h4>
+									<p>离抢课结束还有：3天</p>
+									<span class="pri">
 									<b>
 										<h1>￥99</h1>
 										<h3>￥299</h3>
 									</b>
 									<h4>报名限额：2000</h4>
 								</span>
+								</div>
 							</div>
-						</div></a>
+						</a>
 					</div>
 					<div class="cet-4-1">
-						<a href="#"><div class="cet-4-bor">
-							<div class="cet-4-img">
-								<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/7404A9232F7C630185933DAD9DF787E6-2.png" alt="" />
-							</div>	
-							<div class="cet-4-1-con">
-								<h4>四六级考前50天备考攻略</h4>
-								<p>限量免费</p>
-								<span class="pri">
+						<a href="#">
+							<div class="cet-4-bor">
+								<div class="cet-4-img">
+									<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/5A00339E4E46AA4D9A41C288EF763F04-2.png" alt="" />
+								</div>
+								<div class="cet-4-1-con">
+									<h4>秋季六级冲刺班</h4>
+									<p>离抢课结束还有：3天</p>
+									<span class="pri">
+									<b>
+										<h1>￥99</h1>
+										<h3>￥299</h3>
+									</b>
+									<h4>报名限额：2000</h4>
+								</span>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="cet-4-1">
+						<a href="#">
+							<div class="cet-4-bor">
+								<div class="cet-4-img">
+									<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/7404A9232F7C630185933DAD9DF787E6-2.png" alt="" />
+								</div>
+								<div class="cet-4-1-con">
+									<h4>四六级考前50天备考攻略</h4>
+									<p>限量免费</p>
+									<span class="pri">
 									<b>
 										<h1>￥0</h1>
 										<h3>￥99</h3>
 									</b>
 									<h4>报名限额：12000</h4>
 								</span>
+								</div>
 							</div>
-						</div></a>
+						</a>
 					</div>
 					<div class="cet-4-1">
-						<a href="#"><div class="cet-4-bor">
-							<div class="cet-4-img">
-								<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/26C0163E8B89AF96BAFEDD68D3007084-2.png" alt="" />
-							</div>	
-							<div class="cet-4-1-con">
-								<h4>秋季四级保过班</h4>
-								<p>开课时间：2017.09.22-2017.12.10</p>
-								<span class="pri">
-									<b>
-										<h1 style="float: left; font-size: 28px; color: #d1d1d1;font-weight: bold;opacity: .5;">￥199</h1>
-										<h3>￥399</h3>
-									</b>
-									<h4>购买人数：4500</h4>
-									<p>已售罄</p>
-								</span>
+						<a href="#">
+							<div class="cet-4-bor">
+								<div class="cet-4-img">
+									<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/26C0163E8B89AF96BAFEDD68D3007084-2.png" alt="" />
+								</div>
+								<div class="cet-4-1-con">
+									<h4>秋季四级保过班</h4>
+									<p>开课时间：2017.09.22-2017.12.10</p>
+									<span class="pri">
+										<b>
+											<h1 style="float: left; font-size: 28px; color: #d1d1d1;font-weight: bold;opacity: .5;">￥199</h1>
+											<h3>￥399</h3>
+										</b>
+										<h4>购买人数：4500</h4>
+										<p>已售罄</p>
+									</span>
+								</div>
 							</div>
-						</div></a>
+						</a>
 					</div>
 					<div class="cet-4-1">
-						<a href="#"><div class="cet-4-bor">
-							<div class="cet-4-img">
-								<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/5284C807EB8DCA25937E23AE33BE3BFE-2.png" alt="" />
-							</div>	
-							<div class="cet-4-1-con">
-								<h4>秋季六级保过班</h4>
-								<p>开课时间：2017.09.22-2017.12.10</p>
-								<span class="pri">
+						<a href="#">
+							<div class="cet-4-bor">
+								<div class="cet-4-img">
+									<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/5284C807EB8DCA25937E23AE33BE3BFE-2.png" alt="" />
+								</div>
+								<div class="cet-4-1-con">
+									<h4>秋季六级保过班</h4>
+									<p>开课时间：2017.09.22-2017.12.10</p>
+									<span class="pri">
 									<b>
 										<h1 style="float: left; font-size: 28px; color: #d1d1d1;font-weight: bold;opacity: .5;">￥199</h1>
 										<h3>￥399</h3>
@@ -315,93 +188,103 @@
 									<h4>购买人数：3500</h4>
 									<p>已售罄</p>
 								</span>
+								</div>
 							</div>
-						</div></a>
+						</a>
 					</div>
 				</div>
 				<div class="cet-4">
 					<h2>考研<a class="more" href="#">更多课程<span class="morespan"></span></a></h2>
 					<div class="cet-4-1">
-						<a href="#"><div class="cet-4-bor">
-							<div class="cet-4-img">
-								<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/3D7EA8825895F9DEA0889158F4558E3A-2.jpg" alt="" />
-							</div>	
-							<div class="cet-4-1-con">
-								<h4>四六级预测冲刺大串讲</h4>
-								<p>限量免费</p>
-								<span class="pri">
+						<a href="#">
+							<div class="cet-4-bor">
+								<div class="cet-4-img">
+									<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/3D7EA8825895F9DEA0889158F4558E3A-2.jpg" alt="" />
+								</div>
+								<div class="cet-4-1-con">
+									<h4>四六级预测冲刺大串讲</h4>
+									<p>限量免费</p>
+									<span class="pri">
 									<b>
 										<h1>￥0</h1>
 										<h3>￥99</h3>
 									</b>
 									<h4>报名限额：8000</h4>
 								</span>
+								</div>
 							</div>
-						</div></a>
+						</a>
 					</div>
 					<div class="cet-4-1">
-						<a href="#"><div class="cet-4-bor">
-							<div class="cet-4-img">
-								<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/4D9FDF4FF41415F84F8F675E391C8BD4-2.png" alt="" />
-							</div>	
-							<div class="cet-4-1-con">
-								<h4>秋季四级冲刺班</h4>
-								<p>离抢课结束还有：3天</p>
-								<span class="pri">
+						<a href="#">
+							<div class="cet-4-bor">
+								<div class="cet-4-img">
+									<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/4D9FDF4FF41415F84F8F675E391C8BD4-2.png" alt="" />
+								</div>
+								<div class="cet-4-1-con">
+									<h4>秋季四级冲刺班</h4>
+									<p>离抢课结束还有：3天</p>
+									<span class="pri">
 									<b>
 										<h1>￥99</h1>
 										<h3>￥299</h3>
 									</b>
 									<h4>报名限额：2000</h4>
 								</span>
+								</div>
 							</div>
-						</div></a>
+						</a>
 					</div>
 					<div class="cet-4-1">
-						<a href="#"><div class="cet-4-bor">
-							<div class="cet-4-img">
-								<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/5A00339E4E46AA4D9A41C288EF763F04-2.png" alt="" />
-							</div>	
-							<div class="cet-4-1-con">
-								<h4>秋季六级冲刺班</h4>
-								<p>离抢课结束还有：3天</p>
-								<span class="pri">
+						<a href="#">
+							<div class="cet-4-bor">
+								<div class="cet-4-img">
+									<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/5A00339E4E46AA4D9A41C288EF763F04-2.png" alt="" />
+								</div>
+								<div class="cet-4-1-con">
+									<h4>秋季六级冲刺班</h4>
+									<p>离抢课结束还有：3天</p>
+									<span class="pri">
 									<b>
 										<h1>￥99</h1>
 										<h3>￥299</h3>
 									</b>
 									<h4>报名限额：2000</h4>
 								</span>
+								</div>
 							</div>
-						</div></a>
+						</a>
 					</div>
 					<div class="cet-4-1">
-						<a href="#"><div class="cet-4-bor">
-							<div class="cet-4-img">
-								<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/7404A9232F7C630185933DAD9DF787E6-2.png" alt="" />
-							</div>	
-							<div class="cet-4-1-con">
-								<h4>四六级考前50天备考攻略</h4>
-								<p>限量免费</p>
-								<span class="pri">
+						<a href="#">
+							<div class="cet-4-bor">
+								<div class="cet-4-img">
+									<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/7404A9232F7C630185933DAD9DF787E6-2.png" alt="" />
+								</div>
+								<div class="cet-4-1-con">
+									<h4>四六级考前50天备考攻略</h4>
+									<p>限量免费</p>
+									<span class="pri">
 									<b>
 										<h1>￥0</h1>
 										<h3>￥99</h3>
 									</b>
 									<h4>报名限额：12000</h4>
 								</span>
+								</div>
 							</div>
-						</div></a>
+						</a>
 					</div>
 					<div class="cet-4-1">
-						<a href="#"><div class="cet-4-bor">
-							<div class="cet-4-img">
-								<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/26C0163E8B89AF96BAFEDD68D3007084-2.png" alt="" />
-							</div>	
-							<div class="cet-4-1-con">
-								<h4>秋季四级保过班</h4>
-								<p>开课时间：2017.09.22-2017.12.10</p>
-								<span class="pri">
+						<a href="#">
+							<div class="cet-4-bor">
+								<div class="cet-4-img">
+									<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/26C0163E8B89AF96BAFEDD68D3007084-2.png" alt="" />
+								</div>
+								<div class="cet-4-1-con">
+									<h4>秋季四级保过班</h4>
+									<p>开课时间：2017.09.22-2017.12.10</p>
+									<span class="pri">
 									<b>
 										<h1 style="float: left; font-size: 28px; color: #d1d1d1;font-weight: bold;opacity: .5;">￥199</h1>
 										<h3>￥399</h3>
@@ -409,18 +292,20 @@
 									<h4>购买人数：4500</h4>
 									<p>已售罄</p>
 								</span>
+								</div>
 							</div>
-						</div></a>
+						</a>
 					</div>
 					<div class="cet-4-1">
-						<a href="#"><div class="cet-4-bor">
-							<div class="cet-4-img">
-								<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/5284C807EB8DCA25937E23AE33BE3BFE-2.png" alt="" />
-							</div>	
-							<div class="cet-4-1-con">
-								<h4>秋季六级保过班</h4>
-								<p>开课时间：2017.09.22-2017.12.10</p>
-								<span class="pri">
+						<a href="#">
+							<div class="cet-4-bor">
+								<div class="cet-4-img">
+									<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/5284C807EB8DCA25937E23AE33BE3BFE-2.png" alt="" />
+								</div>
+								<div class="cet-4-1-con">
+									<h4>秋季六级保过班</h4>
+									<p>开课时间：2017.09.22-2017.12.10</p>
+									<span class="pri">
 									<b>
 										<h1 style="float: left; font-size: 28px; color: #d1d1d1;font-weight: bold;opacity: .5;">￥199</h1>
 										<h3>￥399</h3>
@@ -428,93 +313,103 @@
 									<h4>购买人数：3500</h4>
 									<p>已售罄</p>
 								</span>
+								</div>
 							</div>
-						</div></a>
+						</a>
 					</div>
 				</div>
 				<div class="cet-4">
 					<h2>雅思<a class="more" href="#">更多课程<span class="morespan"></span></a></h2>
 					<div class="cet-4-1">
-						<a href="#"><div class="cet-4-bor">
-							<div class="cet-4-img">
-								<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/3D7EA8825895F9DEA0889158F4558E3A-2.jpg" alt="" />
-							</div>	
-							<div class="cet-4-1-con">
-								<h4>四六级预测冲刺大串讲</h4>
-								<p>限量免费</p>
-								<span class="pri">
+						<a href="#">
+							<div class="cet-4-bor">
+								<div class="cet-4-img">
+									<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/3D7EA8825895F9DEA0889158F4558E3A-2.jpg" alt="" />
+								</div>
+								<div class="cet-4-1-con">
+									<h4>四六级预测冲刺大串讲</h4>
+									<p>限量免费</p>
+									<span class="pri">
 									<b>
 										<h1>￥0</h1>
 										<h3>￥99</h3>
 									</b>
 									<h4>报名限额：8000</h4>
 								</span>
+								</div>
 							</div>
-						</div></a>
+						</a>
 					</div>
 					<div class="cet-4-1">
-						<a href="#"><div class="cet-4-bor">
-							<div class="cet-4-img">
-								<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/4D9FDF4FF41415F84F8F675E391C8BD4-2.png" alt="" />
-							</div>	
-							<div class="cet-4-1-con">
-								<h4>秋季四级冲刺班</h4>
-								<p>离抢课结束还有：3天</p>
-								<span class="pri">
+						<a href="#">
+							<div class="cet-4-bor">
+								<div class="cet-4-img">
+									<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/4D9FDF4FF41415F84F8F675E391C8BD4-2.png" alt="" />
+								</div>
+								<div class="cet-4-1-con">
+									<h4>秋季四级冲刺班</h4>
+									<p>离抢课结束还有：3天</p>
+									<span class="pri">
 									<b>
 										<h1>￥99</h1>
 										<h3>￥299</h3>
 									</b>
 									<h4>报名限额：2000</h4>
 								</span>
+								</div>
 							</div>
-						</div></a>
+						</a>
 					</div>
 					<div class="cet-4-1">
-						<a href="#"><div class="cet-4-bor">
-							<div class="cet-4-img">
-								<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/5A00339E4E46AA4D9A41C288EF763F04-2.png" alt="" />
-							</div>	
-							<div class="cet-4-1-con">
-								<h4>秋季六级冲刺班</h4>
-								<p>离抢课结束还有：3天</p>
-								<span class="pri">
+						<a href="#">
+							<div class="cet-4-bor">
+								<div class="cet-4-img">
+									<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/5A00339E4E46AA4D9A41C288EF763F04-2.png" alt="" />
+								</div>
+								<div class="cet-4-1-con">
+									<h4>秋季六级冲刺班</h4>
+									<p>离抢课结束还有：3天</p>
+									<span class="pri">
 									<b>
 										<h1>￥99</h1>
 										<h3>￥299</h3>
 									</b>
 									<h4>报名限额：2000</h4>
 								</span>
+								</div>
 							</div>
-						</div></a>
+						</a>
 					</div>
 					<div class="cet-4-1">
-						<a href="#"><div class="cet-4-bor">
-							<div class="cet-4-img">
-								<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/7404A9232F7C630185933DAD9DF787E6-2.png" alt="" />
-							</div>	
-							<div class="cet-4-1-con">
-								<h4>四六级考前50天备考攻略</h4>
-								<p>限量免费</p>
-								<span class="pri">
+						<a href="#">
+							<div class="cet-4-bor">
+								<div class="cet-4-img">
+									<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/7404A9232F7C630185933DAD9DF787E6-2.png" alt="" />
+								</div>
+								<div class="cet-4-1-con">
+									<h4>四六级考前50天备考攻略</h4>
+									<p>限量免费</p>
+									<span class="pri">
 									<b>
 										<h1>￥0</h1>
 										<h3>￥99</h3>
 									</b>
 									<h4>报名限额：12000</h4>
 								</span>
+								</div>
 							</div>
-						</div></a>
+						</a>
 					</div>
 					<div class="cet-4-1">
-						<a href="#"><div class="cet-4-bor">
-							<div class="cet-4-img">
-								<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/26C0163E8B89AF96BAFEDD68D3007084-2.png" alt="" />
-							</div>	
-							<div class="cet-4-1-con">
-								<h4>秋季四级保过班</h4>
-								<p>开课时间：2017.09.22-2017.12.10</p>
-								<span class="pri">
+						<a href="#">
+							<div class="cet-4-bor">
+								<div class="cet-4-img">
+									<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/26C0163E8B89AF96BAFEDD68D3007084-2.png" alt="" />
+								</div>
+								<div class="cet-4-1-con">
+									<h4>秋季四级保过班</h4>
+									<p>开课时间：2017.09.22-2017.12.10</p>
+									<span class="pri">
 									<b>
 										<h1 style="float: left; font-size: 28px; color: #d1d1d1;font-weight: bold;opacity: .5;">￥199</h1>
 										<h3>￥399</h3>
@@ -522,18 +417,20 @@
 									<h4>购买人数：4500</h4>
 									<p>已售罄</p>
 								</span>
+								</div>
 							</div>
-						</div></a>
+						</a>
 					</div>
 					<div class="cet-4-1">
-						<a href="#"><div class="cet-4-bor">
-							<div class="cet-4-img">
-								<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/5284C807EB8DCA25937E23AE33BE3BFE-2.png" alt="" />
-							</div>	
-							<div class="cet-4-1-con">
-								<h4>秋季六级保过班</h4>
-								<p>开课时间：2017.09.22-2017.12.10</p>
-								<span class="pri">
+						<a href="#">
+							<div class="cet-4-bor">
+								<div class="cet-4-img">
+									<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/5284C807EB8DCA25937E23AE33BE3BFE-2.png" alt="" />
+								</div>
+								<div class="cet-4-1-con">
+									<h4>秋季六级保过班</h4>
+									<p>开课时间：2017.09.22-2017.12.10</p>
+									<span class="pri">
 									<b>
 										<h1 style="float: left; font-size: 28px; color: #d1d1d1;font-weight: bold;opacity: .5;">￥199</h1>
 										<h3>￥399</h3>
@@ -541,93 +438,103 @@
 									<h4>购买人数：3500</h4>
 									<p>已售罄</p>
 								</span>
+								</div>
 							</div>
-						</div></a>
+						</a>
 					</div>
 				</div>
 				<div class="cet-4">
 					<h2>口语<a class="more" href="#">更多课程<span class="morespan"></span></a></h2>
 					<div class="cet-4-1">
-						<a href="#"><div class="cet-4-bor">
-							<div class="cet-4-img">
-								<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/3D7EA8825895F9DEA0889158F4558E3A-2.jpg" alt="" />
-							</div>	
-							<div class="cet-4-1-con">
-								<h4>四六级预测冲刺大串讲</h4>
-								<p>限量免费</p>
-								<span class="pri">
+						<a href="#">
+							<div class="cet-4-bor">
+								<div class="cet-4-img">
+									<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/3D7EA8825895F9DEA0889158F4558E3A-2.jpg" alt="" />
+								</div>
+								<div class="cet-4-1-con">
+									<h4>四六级预测冲刺大串讲</h4>
+									<p>限量免费</p>
+									<span class="pri">
 									<b>
 										<h1>￥0</h1>
 										<h3>￥99</h3>
 									</b>
 									<h4>报名限额：8000</h4>
 								</span>
+								</div>
 							</div>
-						</div></a>
+						</a>
 					</div>
 					<div class="cet-4-1">
-						<a href="#"><div class="cet-4-bor">
-							<div class="cet-4-img">
-								<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/4D9FDF4FF41415F84F8F675E391C8BD4-2.png" alt="" />
-							</div>	
-							<div class="cet-4-1-con">
-								<h4>秋季四级冲刺班</h4>
-								<p>离抢课结束还有：3天</p>
-								<span class="pri">
+						<a href="#">
+							<div class="cet-4-bor">
+								<div class="cet-4-img">
+									<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/4D9FDF4FF41415F84F8F675E391C8BD4-2.png" alt="" />
+								</div>
+								<div class="cet-4-1-con">
+									<h4>秋季四级冲刺班</h4>
+									<p>离抢课结束还有：3天</p>
+									<span class="pri">
 									<b>
 										<h1>￥99</h1>
 										<h3>￥299</h3>
 									</b>
 									<h4>报名限额：2000</h4>
 								</span>
+								</div>
 							</div>
-						</div></a>
+						</a>
 					</div>
 					<div class="cet-4-1">
-						<a href="#"><div class="cet-4-bor">
-							<div class="cet-4-img">
-								<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/5A00339E4E46AA4D9A41C288EF763F04-2.png" alt="" />
-							</div>	
-							<div class="cet-4-1-con">
-								<h4>秋季六级冲刺班</h4>
-								<p>离抢课结束还有：3天</p>
-								<span class="pri">
+						<a href="#">
+							<div class="cet-4-bor">
+								<div class="cet-4-img">
+									<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/5A00339E4E46AA4D9A41C288EF763F04-2.png" alt="" />
+								</div>
+								<div class="cet-4-1-con">
+									<h4>秋季六级冲刺班</h4>
+									<p>离抢课结束还有：3天</p>
+									<span class="pri">
 									<b>
 										<h1>￥99</h1>
 										<h3>￥299</h3>
 									</b>
 									<h4>报名限额：2000</h4>
 								</span>
+								</div>
 							</div>
-						</div></a>
+						</a>
 					</div>
 					<div class="cet-4-1">
-						<a href="#"><div class="cet-4-bor">
-							<div class="cet-4-img">
-								<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/7404A9232F7C630185933DAD9DF787E6-2.png" alt="" />
-							</div>	
-							<div class="cet-4-1-con">
-								<h4>四六级考前50天备考攻略</h4>
-								<p>限量免费</p>
-								<span class="pri">
+						<a href="#">
+							<div class="cet-4-bor">
+								<div class="cet-4-img">
+									<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/7404A9232F7C630185933DAD9DF787E6-2.png" alt="" />
+								</div>
+								<div class="cet-4-1-con">
+									<h4>四六级考前50天备考攻略</h4>
+									<p>限量免费</p>
+									<span class="pri">
 									<b>
 										<h1>￥0</h1>
 										<h3>￥99</h3>
 									</b>
 									<h4>报名限额：12000</h4>
 								</span>
+								</div>
 							</div>
-						</div></a>
+						</a>
 					</div>
 					<div class="cet-4-1">
-						<a href="#"><div class="cet-4-bor">
-							<div class="cet-4-img">
-								<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/26C0163E8B89AF96BAFEDD68D3007084-2.png" alt="" />
-							</div>	
-							<div class="cet-4-1-con">
-								<h4>秋季四级保过班</h4>
-								<p>开课时间：2017.09.22-2017.12.10</p>
-								<span class="pri">
+						<a href="#">
+							<div class="cet-4-bor">
+								<div class="cet-4-img">
+									<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/26C0163E8B89AF96BAFEDD68D3007084-2.png" alt="" />
+								</div>
+								<div class="cet-4-1-con">
+									<h4>秋季四级保过班</h4>
+									<p>开课时间：2017.09.22-2017.12.10</p>
+									<span class="pri">
 									<b>
 										<h1 style="float: left; font-size: 28px; color: #d1d1d1;font-weight: bold;opacity: .5;">￥199</h1>
 										<h3>￥399</h3>
@@ -635,18 +542,20 @@
 									<h4>购买人数：4500</h4>
 									<p>已售罄</p>
 								</span>
+								</div>
 							</div>
-						</div></a>
+						</a>
 					</div>
 					<div class="cet-4-1">
-						<a href="#"><div class="cet-4-bor">
-							<div class="cet-4-img">
-								<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/5284C807EB8DCA25937E23AE33BE3BFE-2.png" alt="" />
-							</div>	
-							<div class="cet-4-1-con">
-								<h4>秋季六级保过班</h4>
-								<p>开课时间：2017.09.22-2017.12.10</p>
-								<span class="pri">
+						<a href="#">
+							<div class="cet-4-bor">
+								<div class="cet-4-img">
+									<img src="http://down.yingshibao.com/yingshibao/courseLibrary/courseImg/5284C807EB8DCA25937E23AE33BE3BFE-2.png" alt="" />
+								</div>
+								<div class="cet-4-1-con">
+									<h4>秋季六级保过班</h4>
+									<p>开课时间：2017.09.22-2017.12.10</p>
+									<span class="pri">
 									<b>
 										<h1 style="float: left; font-size: 28px; color: #d1d1d1;font-weight: bold;opacity: .5;">￥199</h1>
 										<h3>￥399</h3>
@@ -654,8 +563,9 @@
 									<h4>购买人数：3500</h4>
 									<p>已售罄</p>
 								</span>
+								</div>
 							</div>
-						</div></a>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -663,113 +573,46 @@
 		<div class="center">
 			<img src="http://7sblip.com1.z0.glb.clouddn.com/image/pc/index/yu.png" alt="" />
 		</div>
-		<style type="text/css">
-			.footer{
-				width: 100%;
-				background-color: #414141;
-				clear: both;
-				color: #929292;
-				font-size: 14px;
-			}
-			
-			.footer a{
-				text-decoration: none;
-				color: #929292;
-			}
-			.line{
-				border-left: 1px solid #929292;
-				/*background-color: red;*/
-				/*color: #929292;*/
-				height: 12px;
-				/*font-size: 12px;*/
-				/*margin-right: 20px;*/
-				/*line-height: 50px;*/
-				/*display: inline-block;*/
-				/*margin-top: 5px;*/
-			}
-			.footer-top>ul>li>a{
-				margin-right: 20px;
-			}
-			.footer-top>ul>li>a:hover{
-				color: #c1c1c1;
-			}
-			.hoverimg{
-				position: absolute;
-				top: -150px;
-				left: -30px;
-				display: none;
-			}
-			.footer-list:hover .hoverimg{
-				display: block;
-			}
-			.footer-list{
-				padding-top: 40px;
-			}
-			.footer-list2{
-				margin-top: 20px;
-			}
-			.footer-bot{
-				width: 100%;
-				text-align: center;
-				border-top: 1px solid #4b4b4b;
-			}
-			.footer-bot>ul>li{
-				display: inline-block;
-				line-height: 50px;
-				color: #929292;
-				font-size: 14px;
-				margin-right: 20px;
-			}
-			.footer-bot>ul>li>p{
-				clear: both;
-				text-align: center;
-				color: #757575;
-				font-size: 12px;
-				height: 22px;
-				line-height: 22px;
-			}
-			.span{
-				float: left;
-				width: 6px;
-				height: 6px;
-				background: #44CED8;
-				margin: 7px 10px 0 40px;
-				border-radius: 10px;
-			}
-		</style>
-			<div class="footer">
-				<div class="center">
-					<div class="footer-top">
-						<ul>
-							<li class="footer-list">
-								<span class="span"></span>
-								获取更多考试资讯，欢迎关注：
-								<a href="#">四六级微博<img class="hoverimg" src="http://7sblip.com1.z0.glb.clouddn.com/pc/image/fewmsljwb.png" alt="" /></a>
-								<a href="#">考研微博<img class="hoverimg" src="http://7sblip.com1.z0.glb.clouddn.com/pc/image/fewmkywb.png" alt="" /></a>
-								<a href="#">四六级微信<img class="hoverimg" src="http://7sblip.com1.z0.glb.clouddn.com/pc/image/fewmsljwx.png" alt="" /></a>
-								<a href="#">考研微信<img class="hoverimg" src="http://7sblip.com1.z0.glb.clouddn.com/pc/image/fewmkywx.png" alt="" /></a>
-							</li>
-							<li  class="footer-list2">
-								<span class="span"></span>
-								<p>联系客服：010-56053889&nbsp010-56053996&nbsp周一到周五9：00-18：00 节假日除外）&nbspEmail： kefu@yingshibao.com</p>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="footer-bot">
+		<div class="footer">
+			<div class="center">
+				<div class="footer-top">
 					<ul>
-						<li><a href="#">关于我们</a></li>
-						<li class="line"></li>
-						<li><a href="#">联系我们</a></li>
-						<li class="line"></li>
-						<li><a href="#">常见帮助</a></li>
-						<li class="line"></li>
-						<li><a href="#">下载应试宝APP</a></li>
+						<li class="footer-list">
+							<span class="span"></span> 获取更多考试资讯，欢迎关注：
+							<a href="#">四六级微博<img class="hoverimg" src="http://7sblip.com1.z0.glb.clouddn.com/pc/image/fewmsljwb.png" alt="" /></a>
+							<a href="#">考研微博<img class="hoverimg" src="http://7sblip.com1.z0.glb.clouddn.com/pc/image/fewmkywb.png" alt="" /></a>
+							<a href="#">四六级微信<img class="hoverimg" src="http://7sblip.com1.z0.glb.clouddn.com/pc/image/fewmsljwx.png" alt="" /></a>
+							<a href="#">考研微信<img class="hoverimg" src="http://7sblip.com1.z0.glb.clouddn.com/pc/image/fewmkywx.png" alt="" /></a>
+						</li>
+						<li class="footer-list2">
+							<span class="span"></span>
+							<p>联系客服：010-56053889&nbsp010-56053996&nbsp周一到周五9：00-18：00 节假日除外）&nbspEmail： kefu@yingshibao.com</p>
+						</li>
 					</ul>
-					<p>Copyright © 2014-2017 www.yingshibao.com All Rights Reserved 京ICP备14007548号</p>
 				</div>
 			</div>
-		
-			
+			<div class="footer-bot">
+				<ul>
+					<li>
+						<a href="#">关于我们</a>
+					</li>
+					<li class="line"></li>
+					<li>
+						<a href="#">联系我们</a>
+					</li>
+					<li class="line"></li>
+					<li>
+						<a href="#">常见帮助</a>
+					</li>
+					<li class="line"></li>
+					<li>
+						<a href="#">下载应试宝APP</a>
+					</li>
+				</ul>
+				<p>Copyright © 2014-2017 www.yingshibao.com All Rights Reserved 京ICP备14007548号</p>
+			</div>
+		</div>
+
 	</body>
+
 </html>

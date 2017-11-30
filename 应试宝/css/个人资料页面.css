@@ -1,0 +1,183 @@
+/*左侧列表*/
+
+.left>ul {
+	width: 162px;
+	float: left;
+	margin-top: 30px;
+	background: #FFFFFF;
+}
+
+.left>ul>li {
+	border: 1px solid #eee;
+	text-align: center;
+	padding: 8px 35px;
+	font-size: 14px;
+	border-bottom: none;
+}
+
+.left>ul>li>a {
+	text-decoration: none;
+	color: #565656;
+}
+
+.left>ul>li>a:hover {
+	color: #44ced8;
+}
+
+
+/*个人资料*/
+
+.right {
+	border: 1px solid #eee;
+	width: 800px;
+	margin-top: 30px;
+	float: left;
+	background: #FFFFFF;
+	margin-left: 20px;
+	margin-bottom: 130px;
+	position: relative;
+}
+
+
+/*表题*/
+
+.right>h2 {
+	font-size: 16px;
+	font-weight: normal;
+	padding: 13px 25px;
+	margin: auto 0;
+	border-bottom: 1px solid #EEEEEE;
+}
+
+
+/*form表单*/
+
+.personal {
+	height: 503px;
+	margin: auto;
+	margin-left: 40px;
+}
+
+
+/*上传头像*/
+
+.head-portrait {
+	height: 140px;
+	margin-top: 50px;
+}
+
+.personal p {
+	float: left;
+	color: #9696a3;
+	font-size: 14px;
+}
+
+.head-portrait>p {
+	margin-left: 65px;
+	margin-right: 40px;
+	margin-top: 40px;
+}
+
+
+/*头像*/
+
+.head-portrait>img {
+	width: 100px;
+	height: 100px;
+	line-height: 140px;
+	float: left;
+}
+
+.head-portrait>a {
+	text-decoration: none;
+	color: #565656;
+	font-size: 14px;
+	float: left;
+	margin-left: 32px;
+	margin-top: 40px;
+}
+
+
+/*昵称*/
+
+.nickname {
+	margin-top: 10px;
+	height: 40px;
+}
+
+.nickname>p {
+	float: left;
+	margin-left: 65px;
+	line-height: 42px;
+}
+
+.nickname>input {
+	width: 313px;
+	height: 38px;
+	border: 1px solid #e5e5e5;
+	border-radius: 8px;
+	margin-left: 27px;
+	padding-left: 10px;
+	font-size: 14px;
+	color: #9696a3;
+}
+
+.nickname>input:focus {
+	border-color: #34bdc7;
+	outline: 0;
+}
+
+
+/*性别*/
+
+.sex {
+	margin-top: 20px;
+}
+
+.sex>p {
+	margin-left: 65px;
+}
+
+.sex>input {
+	margin-left: 27px;
+}
+
+.sex span {
+	font-size: 14px;
+	color: #9696a3;
+	padding-left: 10px;
+}
+
+
+/*电话*/
+
+.tel {
+	margin-top: 20px;
+}
+
+.tel>p {
+	margin-left: 25px;
+}
+
+.tel>h3 {
+	color: #9696a3;
+	font-size: 17px;
+	font-weight: normal;
+	float: left;
+	margin-left: 27px;
+}
+
+
+/*保存按钮*/
+
+.keep {
+	width: 92px;
+	height: 33px;
+	background: #44ced8;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 15px;
+	position: absolute;
+	top: 440px;
+	left: 175px;
+}

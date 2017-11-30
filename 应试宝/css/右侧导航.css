@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+.remu {
+	position: fixed;
+	top: 20%;
+	right: 5% !important;
+	background: #fff;
+	z-index: 999;
+	border: 1px solid #dfe2e2;
+	border-radius: 5px;
+	height: 360px;
+	padding-left: 0;
+	width: 74px;
+}
+
+.btn-top {
+	padding-bottom: 20px;
+	background: url(http://7sblip.com1.z0.glb.clouddn.com/pc/image/ysbtop.png) center no-repeat;
+	background-color: #fff;
+	background-size: 30px 16px;
+	height: 20px;
+	margin-top: 20px;
+}
+
+.btnBtn {
+	width: 72px;
+	border-radius: 0;
+	cursor: pointer;
+	position: relative;
+}
+
+.kefu {
+	width: 72px;
+	height: 83px;
+	/*border: 1px solid #000;*/
+	background-image: url(http://7sblip.com1.z0.glb.clouddn.com/pc/image/ysbzxkf.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: block;
+	background-color: #fff;
+	border-radius: 5px 5px 0 0;
+	background-size: 30px 37px;
+}
+
+.kefu b {
+	font-size: 12px;
+	position: absolute;
+	top: 65px;
+	left: 10px;
+	color: #aaaaaa;
+	font-weight: normal;
+}
+
+.wx {
+	width: 72px;
+	height: 55px;
+	/*border: 1px solid #000;*/
+	background-image: url(http://7sblip.com1.z0.glb.clouddn.com/pc/image/ysbwx.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: block;
+	background-color: #fff;
+	position: relative;
+	border-bottom: none;
+	margin-top: 20px;
+}
+
+.wx p {
+	font-size: 12px;
+	position: absolute;
+	top: 45px;
+	left: 22px;
+	color: #BAB4B4;
+	/*font-weight: normal;*/
+}
+
+.pho {
+	background-image: url(http://7sblip.com1.z0.glb.clouddn.com/pc/image/ysbwb.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: block;
+	background-color: #fff;
+	margin-top: 20px;
+	/*border: 1px solid #000;*/
+	height: 60px;
+	position: relative;
+	background-size: 30px 24px;
+}
+
+.pho p {
+	font-size: 12px;
+	position: absolute;
+	top: 50px;
+	left: 20px;
+	color: #bab4b4;
+	font-weight: normal;
+}
+
+.bt-app {
+	background-image: url(http://7sblip.com1.z0.glb.clouddn.com/pc/image/ysbxz.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: block;
+	background-color: #fff;
+	margin-top: 40px;
+	position: relative;
+	background-size: 30px 20px;
+	padding-bottom: 20px;
+}
+
+.bt-app p {
+	font-size: 13px;
+	position: absolute;
+	top: 30px;
+	left: 10px;
+	color: #aaaaaa;
+	font-weight: normal;
+}

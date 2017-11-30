@@ -1,0 +1,273 @@
+/*头部*/
+			
+			.header {
+				width: 100%;
+				height: 70px;
+				background: #fff;
+			}
+			
+			.logo {
+				float: left;
+				margin-top: 13px;
+			}
+			/*导航*/
+			
+			.nav {
+				position: relative;
+				left: 45px;
+			}
+			
+			.nav>li {
+				margin-bottom: 0;
+			}
+			
+			.nav li a {
+				text-decoration: none;
+				font-family: "微软雅黑";
+				font-size: 18px;
+				float: left;
+				line-height: 70px;
+				color: #444444;
+				margin-left: 35px;
+				text-align: center;
+				height: 53px;
+				width: 60px;
+			}
+			
+			.nav>li .active {
+				color: #34bdc7;
+				border-bottom: 3px solid #34bdc7;
+			}
+			
+			.nav>li>a:hover {
+				color: #34bdc7;
+			}
+			/*登录*/
+			
+			.center>p>a {
+				text-decoration: none;
+				font-family: "微软雅黑";
+				font-size: 16px;
+				float: right;
+				color: #aaaaaa;
+				line-height: 70px;
+				margin-left: 15px;
+			}
+			
+			.center>p>a:hover {
+				color: #34bdc7;
+			}
+			
+			.poster>img {
+				display: block;
+				width: 100% !important;
+				height: auto;
+				margin-top: 5px;
+				margin-bottom: 50px;
+				height: 400px;
+			}
+			
+/*四六级*/
+					
+					.cet-4-1 {
+						width: 33.3%;
+						min-height: 250px;
+						float: left;
+						margin-bottom: 35px;
+					}
+					/*包含块*/
+					.cet-4-bor {
+						width: 320px;
+						background: #FFFFFF;
+						float: left;
+						margin: auto;
+						border: 1px solid #dfe2e2;
+						border-radius: 5px;
+						box-sizing: border-box;
+					}
+					
+					.cet-4-bor:hover {
+						box-shadow: 1px 1px 3px lightgrey;
+					}
+					/*图片边框*/
+					.cet-4-img {
+						width: 320px;
+						height: 183px;
+						overflow: hidden;
+						position: relative;
+					}
+					
+					.cet-4-img img {
+						width: 318px;
+						height: 183px;
+						position: absolute;
+						top: 0;
+						left: 0;
+					}
+					/*鼠标放上去图片上浮*/
+					.cet-4-img img:hover {
+						width: 325px;
+						height: 190px;
+						margin: auto;
+						top: -10px;
+						left: -5px;
+						border-bottom-left-radius: 5px 5px 0 0;
+					}
+					/*文字包含块*/
+					.cet-4-1-con {
+						margin-left: 10px;
+						height: 100px;
+						position: relative;
+					}
+					
+					.cet-4-1-con>h4 {
+						margin-top: 13px;
+						font-size: 16px;
+						color: #444444;
+						margin-bottom: 0;
+					}
+					
+					.cet-4-1-con>p {
+						margin-top: 10px;
+						font-size: 14px;
+						color: #AAAAAA;
+					}
+					/*价格*/
+					.pri {
+						font-size: 14px;
+						width: 100%;
+						padding: 0 20px 0 0;
+						color: #666666;
+						display: inline-block;
+						position: absolute;
+						bottom: 8px;
+						clear: both;
+					}
+					
+					.pri>b {
+						float: left;
+						margin-left: -5px;
+					}
+					
+					.pri>b>h1 {
+						color: #59dde2;
+						float: left;
+						font-size: 30px;
+						margin-top: 22px;
+						font-weight: bold;
+					}
+					
+					.pri>b>h3 {
+						float: left;
+						margin-left: 10px;
+						font-size: 16px;
+						color: #cfcfcf;
+						margin-top: 36px;
+						text-decoration: line-through;
+					}
+					/*报名限额*/
+					.pri>h4 {
+						font-size: 14px;
+						color: #AAAAAA;
+						float: right;
+						margin-top: 38px;
+						margin-right: 20px;
+					}
+					/*已售罄*/
+					
+					.pri>p {
+						position: absolute;
+						font-size: 20px;
+						color: #59dde2;
+						font-weight: bold;
+						bottom: 10px;
+						width: 60px;
+					}
+					
+/*脚部*/
+			
+			.footer {
+				width: 100%;
+				background-color: #414141;
+				clear: both;
+				color: #929292;
+				font-size: 14px;
+			}
+			
+			.footer a {
+				text-decoration: none;
+				color: #929292;
+			}
+			/*上部*/
+			
+			.footer-top {
+				margin-bottom: 20px;
+			}
+			
+			.footer-top>ul>li>a {
+				margin-right: 20px;
+			}
+			
+			.footer-top>ul>li>a:hover {
+				color: #c1c1c1;
+			}
+			/*二维码*/
+			
+			.hoverimg {
+				position: absolute;
+				top: -150px;
+				left: -30px;
+				display: none;
+			}
+			
+			.footer-top>ul>li>a:hover .hoverimg {
+				display: block;
+			}
+			
+			.footer-list {
+				padding-top: 40px;
+			}
+			/*联系客服行*/
+			
+			.footer-list2 {
+				margin-top: 20px;
+			}
+			
+			.footer-bot {
+				width: 100%;
+				text-align: center;
+				border-top: 1px solid #4b4b4b;
+			}
+			/*小竖线*/
+			
+			.line {
+				border-left: 1px solid #929292;
+				height: 12px;
+			}
+			/*关于我们行*/
+			
+			.footer-bot>ul>li {
+				display: inline-block;
+				line-height: 50px;
+				color: #929292;
+				font-size: 14px;
+				margin-right: 20px;
+			}
+			
+			.footer-bot>ul>li>p {
+				clear: both;
+				text-align: center;
+				color: #757575;
+				font-size: 12px;
+				height: 22px;
+				line-height: 22px;
+			}
+			
+			.span {
+				float: left;
+				width: 6px;
+				height: 6px;
+				background: #44CED8;
+				margin: 7px 10px 0 40px;
+				border-radius: 10px;
+			}
